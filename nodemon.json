@@ -1,0 +1,11 @@
+{
+    "verbose": false,
+    "watch": "build",
+    "ext": ".js,.json",
+    "delay": 500,
+    "env": {
+        "NODE_ENV": "development",
+        "NODE_OPTIONS": "--no-warnings --es-module-specifier-resolution=node --experimental-json-modules"   
+    },
+    "exec": "node ."
+}

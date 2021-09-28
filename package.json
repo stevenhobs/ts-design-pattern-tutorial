@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "tsc:w": "tsc -w",
+        "alias:ser": "",
+        "nodemon": "nodemon",
+        "build": "tsc && tsc-alias",
+        "build:clean": "rm -r build/"
+    },
+    "main": "build/app.js",
+    "devDependencies": {
+        "@types/node": "^16.10.1",
+        "nodemon": "^2.0.13",
+        "tsc-alias": "^1.3.9",
+        "typescript": "^4.4.3"
+    },
+    "dependencies": {}
+}

@@ -1,0 +1,9 @@
+# project
+/node_modules
+/dist
+/build
+/*.lock
+/*-error.log
+
+# ide
+/.vscode
